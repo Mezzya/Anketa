@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ДЗ Анкета</title>
+</head>
+<body>
+<form action="/anketa" method="POST">
+    <b>Заполните Анкету</b><br><br>
+    <table>
+        <tr>
+            <td>Ваше имя:</td>
+            <td><input type="text" name="firstname"></td>
+        </tr>
+        <tr>
+            <td>Ваша фамилия:</td>
+            <td><input type="text" name="lastname"></td>
+        </tr>
+
+        <tr>
+            <td>Ваш возраст:</td>
+            <td><input type="text" name="age"></td>
+        </tr>
+        <tr>
+            <td>Вы хотите выучить Java?</td>
+            <td>
+                <input type="radio" name="qOne" value="yes"> Да хочу.<br>
+                <input type="radio" name="qOne" value="no">Нет не очень
+
+            </td>
+        </tr>
+        <tr>
+            <td>Хотите зарабатывать 3К и не гривен?</td>
+            <td>
+                <input type="radio" name="qTwo" value="yes">Конечно да<br>
+                <input type="radio" name="qTwo" value="no">Нет, маловато
+
+            </td>
+        </tr>
+
+
+    </table>
+    <br>
+    <input type="submit">
+</form>
+
+
+</body>
+</html>
